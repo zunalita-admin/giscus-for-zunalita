@@ -1,26 +1,26 @@
 # [giscus][giscus]
 
-A comments system powered by [GitHub Discussions][discussions]. Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances][utterances].
+Un sistema de comentaris desenvolupat amb [Discussions de GitHub][discussions]. Permet als visitants deixar comentaris i reaccions al teu lloc web mitjançant GitHub! Inspirat en [utterances][utterances].
 
-- [Open source][repo]. 🌏
-- No tracking, no ads, always free. 📡 🚫
-- No database needed. All data is stored in GitHub Discussions. :octocat:
-- Supports [custom themes][creating-custom-themes]! 🌗
-- Supports [multiple languages][multiple-languages]. 🌐
-- [Extensively configurable][advanced-usage]. 🔧
-- Automatically fetches new comments and edits from GitHub. 🔃
-- [Can be self-hosted][self-hosting]! 🤳
+- [Codi obert][repo]. 🌏
+- Sense seguiment, sense anuncis, sempre gratuït. 📡 🚫
+- No es necessita una base de dades. Totes les dades s'emmagatzemen a les Discussions de GitHub. :octocat:
+- Suporta [temes personalitzats][creating-custom-themes]! 🌗
+- Suporta múltiples idiomes][multiple-languages]. 🌐
+- [Ampliament configurable][advanced-usage]. 🔧
+- Obté automàticament nous comentaris i edicions des de GitHub. 🔃
+- [Pot ser autoallotjat][self-hosting]! 🤳
 
-> **Note**
-> giscus is still under active development. GitHub is also still actively developing Discussions and its API. Thus, some features of giscus may break or change over time.
+> **Nota:**\
+> giscus segueix sent un projecte en desenvolupament. GitHub també continua desenvolupant activament les Discussions i la seva API. Per tant, és possible que algunes característiques de giscus puguin trencar-se o canviar amb el temps. És recomanable mantenir-se actualitzat amb les últimes versions i actualitzacions de giscus i seguir les actualitzacions relacionades amb les Discussions i la seva API a GitHub. Això assegurarà que giscus segueixi funcionant de manera òptima i s'aprofiti de les últimes funcionalitats i millores.
 
-## How it works
+## Com funciona
 
-When giscus loads, the [GitHub Discussions search API][search-api] is used to find the Discussion associated with the page based on a chosen mapping (URL, `pathname`, `<title>`, etc.). If a matching discussion cannot be found, the giscus bot will automatically create a discussion the first time someone leaves a comment or reaction.
+Quan es carrega giscus, s'utilitza [l'API de cerca de discussions de GitHub][search-api] per trobar la discussió associada amb la pàgina en funció de la forma de mapeig triada (URL, pathname, <title>, etc.). Si no es pot trobar cap discussió que coincideixi, el bot giscus crearà automàticament una discussió la primera vegada que algú deixi un comentari o una reacció.
 
-To comment, visitors must authorize the [giscus app][giscus-app] to [post on their behalf][authorization] using the GitHub OAuth flow. Alternatively, visitors can comment on the GitHub Discussion directly. You can moderate the comments on GitHub.
+Per deixar un comentari, els visitants han d'autoritzar [l'aplicació de giscus][giscus-app] per [publicar en el seu nom][authorization] utilitzant el flux de GitHub OAuth. Alternativament, els visitants poden comentar directament a la Discussió de GitHub. Pots moderar els comentaris a GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus.app/ca
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus
@@ -34,29 +34,29 @@ To comment, visitors must authorize the [giscus app][giscus-app] to [post on the
 
 <!-- configuration -->
 
-If you're using giscus, consider [starring 🌟 giscus on GitHub][repo] and adding the [`giscus`][giscus-topic] topic [to your repository][topic-howto]! 🎉
+Si estàs utilitzant giscus, considera [recomanar 🌟 giscus a GitHub][repo] i afegir el tema [giscus][giscus-topic] al [teu repositori][topic-howto]! 🎉
 
-## Advanced usage
+## Ús avançat
 
-You can add additional configurations (e.g. allowing specific origins) by following the [advanced usage guide][advanced-usage].
+Pots afegir configuracions addicionals (com permetre orígens específics) seguint la [guia d'ús avançat][advanced-usage].
 
-To use giscus with React, Vue, or Svelte, check out the [giscus component library][giscus-component].
+Per utilitzar giscus amb React, Vue o Svelte, consulta la [biblioteca de components de giscus][giscus-component].
 
-## Migrating
+## Migrant
 
-If you've previously used other systems that utilize GitHub Issues (e.g. [utterances][utterances], [gitalk][gitalk]), you can [convert the existing issues into discussions][convert]. After the conversion, just make sure that the mapping between the discussion titles and the pages are correct, then giscus will automatically use the discussions.
+Si has utilitzat anteriorment altres sistemes que fan servir GitHub Issues (com ara [utterances][utterances] o [gitalk][gitalk]), pots [convertir les issues existents en discussions][convert]. Després de la conversió, assegura't que el mapeig entre els títols de la discussió i les pàgines sigui correcte, i giscus utilitzarà automàticament les discussions.
 
-## Sites using giscus
+## Webs que utilitzen giscus
 
 - [laymonage.com][laymonage-website]
 - [os.phil-opp.com][os-phil-opp]
 - [Stats and R][statsandr]
 - [Tech Debt Burndown Podcast][techdebtburndown]
-- [**and many more!**][giscus-topic]
+- [**I molts més!**][giscus-topic]
 
-## Contributing
+## Contribució
 
-See [CONTRIBUTING.md][contributing]
+Veure [CONTRIBUTING.md][contributing]
 
 [giscus-component]: https://github.com/giscus/giscus-component
 [repo]: https://github.com/giscus/giscus
@@ -76,7 +76,7 @@ See [CONTRIBUTING.md][contributing]
 
 ---
 
-This README is available in:
+Aquest fitxer README està disponible en:
 
 - [&lrm;العربية](README.ar.md)
 - [Беларуская](README.be.md)
@@ -114,6 +114,6 @@ This README is available in:
 - [繁體中文](README.zh-TW.md)
 - [香港繁體](README.zh-HK.md)
 
-[![Powered by Vercel](public/powered-by-vercel.svg)][vercel]
+[![Desenvolupat per Vercel](public/powered-by-vercel.svg)][vercel]
 
 [vercel]: https://vercel.com/?utm_source=giscus&utm_campaign=oss

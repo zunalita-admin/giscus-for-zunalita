@@ -1,24 +1,24 @@
 # [giscus][giscus]
 
-A comments system powered by [GitHub Discussions][discussions]. Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances][utterances].
+Systém komentářů založený na [GitHub Discussions][discussions]. Nechte návštěvníky zanechávat komentáře a reakce na vašem webu prostřednictvím GitHub! Silně inspirováno [utterances][utterances].
 
 - [Open source][repo]. 🌏
-- No tracking, no ads, always free. 📡 🚫
-- No database needed. All data is stored in GitHub Discussions. :octocat:
-- Supports [custom themes][creating-custom-themes]! 🌗
-- Supports [multiple languages][multiple-languages]. 🌐
-- [Extensively configurable][advanced-usage]. 🔧
-- Automatically fetches new comments and edits from GitHub. 🔃
-- [Can be self-hosted][self-hosting]! 🤳
+- Žádné trackování, žádné reklamy, vždy zdarma. 📡 🚫
+- Není potřeba žádná databáze. Všechna data jsou uložena v GitHub Discussions. :octocat:
+- Podporuje [vlastní barevná schémata][creating-custom-themes]! 🌗
+- Podporuje [více jazyků][multiple-languages]. 🌐
+- [Rozsáhle konfigurovatelné][advanced-usage]. 🔧
+- Automaticky načítá nové komentáře a úpravy z GitHub. 🔃
+- [Lze hostovat na vlastním serveru][self-hosting]! 🤳
 
-> **Note**
-> giscus is still under active development. GitHub is also still actively developing Discussions and its API. Thus, some features of giscus may break or change over time.
+> **Poznámka**
+> giscus je stále ve fázi aktivního vývoje. GitHub také stále aktivně vyvíjí Discussions a jeho API. Některé funkce giscusu se tedy mohou časem rozbít nebo změnit.
 
-## How it works
+## Jak to funguje
 
-When giscus loads, the [GitHub Discussions search API][search-api] is used to find the Discussion associated with the page based on a chosen mapping (URL, `pathname`, `<title>`, etc.). If a matching discussion cannot be found, the giscus bot will automatically create a discussion the first time someone leaves a comment or reaction.
+Při načtení nástroje giscus se použije [GitHub Discussions search API][search-api] k vyhledání diskuse spojené se stránkou na základě zvoleného mapování (URL, `pathname`, `<title>` atd.). Pokud odpovídající diskusi nenajde, giscus bot automaticky vytvoří diskusi, jakmile někdo poprvé zanechá komentář nebo reakci.
 
-To comment, visitors must authorize the [giscus app][giscus-app] to [post on their behalf][authorization] using the GitHub OAuth flow. Alternatively, visitors can comment on the GitHub Discussion directly. You can moderate the comments on GitHub.
+Aby mohli návštěvníci komentovat, musí autorizovat [aplikaci giscus][giscus-app], aby [psala jejich jménem][authorization] pomocí GitHub OAuth. Případně mohou návštěvníci komentovat přímo v GitHub Discussion. Komentáře můžete moderovat na GitHub.
 
 [giscus]: https://giscus.app
 [discussions]: https://docs.github.com/en/discussions
@@ -34,19 +34,19 @@ To comment, visitors must authorize the [giscus app][giscus-app] to [post on the
 
 <!-- configuration -->
 
-If you're using giscus, consider [starring 🌟 giscus on GitHub][repo] and adding the [`giscus`][giscus-topic] topic [to your repository][topic-howto]! 🎉
+Pokud používáte giscus, zvažte [zahvězdičkování 🌟 giscus na GitHub][repo] a přidání tématu [`giscus`][giscus-topic] [do svého repozitáře][topic-howto]! 🎉
 
-## Advanced usage
+## Pokročilé použití
 
-You can add additional configurations (e.g. allowing specific origins) by following the [advanced usage guide][advanced-usage].
+Další konfigurace (např. povolení konkrétních domén) můžete přidat podle [průvodce pokročilým použitím][advanced-usage].
 
-To use giscus with React, Vue, or Svelte, check out the [giscus component library][giscus-component].
+Chcete-li používat giscus s React, Vue nebo Svelte, podívejte se na [knihovnu komponent giscus][giscus-component].
 
-## Migrating
+## Migrace
 
-If you've previously used other systems that utilize GitHub Issues (e.g. [utterances][utterances], [gitalk][gitalk]), you can [convert the existing issues into discussions][convert]. After the conversion, just make sure that the mapping between the discussion titles and the pages are correct, then giscus will automatically use the discussions.
+Pokud jste dříve používali jiné systémy, které využívají GitHub Issues (např. [utterances][utterances], [gitalk][gitalk]), můžete [převést stávající issues na discussions][convert]. Po převodu se jen ujistěte, že mapování mezi názvy diskusí a stránkami je správné, pak bude giscus automaticky používat Discussions.
 
-## Sites using giscus
+## Stránky používající giscus
 
 - [laymonage.com][laymonage-website]
 - [os.phil-opp.com][os-phil-opp]
@@ -54,9 +54,9 @@ If you've previously used other systems that utilize GitHub Issues (e.g. [uttera
 - [Tech Debt Burndown Podcast][techdebtburndown]
 - [**and many more!**][giscus-topic]
 
-## Contributing
+## Přispívání
 
-See [CONTRIBUTING.md][contributing]
+Viz [CONTRIBUTING.md][contributing]
 
 [giscus-component]: https://github.com/giscus/giscus-component
 [repo]: https://github.com/giscus/giscus
@@ -76,7 +76,7 @@ See [CONTRIBUTING.md][contributing]
 
 ---
 
-This README is available in:
+Toto README je k dispozici v:
 
 - [&lrm;العربية](README.ar.md)
 - [Беларуская](README.be.md)

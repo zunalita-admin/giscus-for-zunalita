@@ -1,26 +1,26 @@
 # [giscus][giscus]
 
-A comments system powered by [GitHub Discussions][discussions]. Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances][utterances].
+Un système de commentaires reposant sur le système de [Discussions GitHub][discussions]. Permettez aux visiteurs de votre site web de laisser des commentaires et des réactions  via GitHub ! Fortement inspiré par [utterances][utterances].
 
 - [Open source][repo]. 🌏
-- No tracking, no ads, always free. 📡 🚫
-- No database needed. All data is stored in GitHub Discussions. :octocat:
-- Supports [custom themes][creating-custom-themes]! 🌗
-- Supports [multiple languages][multiple-languages]. 🌐
-- [Extensively configurable][advanced-usage]. 🔧
-- Automatically fetches new comments and edits from GitHub. 🔃
-- [Can be self-hosted][self-hosting]! 🤳
+- Pas de suivi, pas de publicité, gratuit pour toujours. 📡 🚫
+- Pas besoin de base de données. Toutes les données sont stockées dans les discussions GitHub. :octocat:
+- [Thèmes personnalisables][creating-custom-themes]! 🌗
+- [Multilingue][multiple-languages]. 🌐
+- [Largement configurable][advanced-usage]. 🔧
+- Récupère automatiquement les nouveaux commentaires et modifications depuis GitHub. 🔃
+- [Peut être auto-hébergé][self-hosting]! 🤳
 
-> **Note**
-> giscus is still under active development. GitHub is also still actively developing Discussions and its API. Thus, some features of giscus may break or change over time.
+> **Note :**\
+> giscus est toujours en développement actif. De même, GitHub développe toujours activement son système de Discussions et l'API correspondante. Dès lors, certaines fonctionalités de giscus peuvent ne plus fonctionner ou changer à l'avenir.
 
-## How it works
+## Comment cela fonctionne ?
 
-When giscus loads, the [GitHub Discussions search API][search-api] is used to find the Discussion associated with the page based on a chosen mapping (URL, `pathname`, `<title>`, etc.). If a matching discussion cannot be found, the giscus bot will automatically create a discussion the first time someone leaves a comment or reaction.
+Lorsque giscus se charge, l'[API de recherche des discussions de GitHub][search-api] est utilisée pour trouver la discussion associée à la page en fonction d'un mappage choisi (URL, `pathname`, `<title>`, etc.). Si aucune discussion correspondante ne peut être trouvée, le robot giscus créera automatiquement une nouvelle discussion la première fois que quelqu'un laissera un commentaire ou une réaction.
 
-To comment, visitors must authorize the [giscus app][giscus-app] to [post on their behalf][authorization] using the GitHub OAuth flow. Alternatively, visitors can comment on the GitHub Discussion directly. You can moderate the comments on GitHub.
+Pour commenter, les visiteurs doivent autoriser l'[application giscus][giscus-app] à [publier en leur nom][authorization] en utilisant le flux OAuth de GitHub. Les visiteurs peuvent également commenter directement la discussion sur GitHub. Vous pouvez modérer les commentaires sur GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus.app/fr
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus
@@ -34,29 +34,29 @@ To comment, visitors must authorize the [giscus app][giscus-app] to [post on the
 
 <!-- configuration -->
 
-If you're using giscus, consider [starring 🌟 giscus on GitHub][repo] and adding the [`giscus`][giscus-topic] topic [to your repository][topic-howto]! 🎉
+Si vous utilisez giscus, pensez à [starifier 🌟 giscus sur GitHub][repo] et à ajouter le sujet [`giscus`][giscus-topic] à [votre dépôt][topic-howto] ! 🎉
 
-## Advanced usage
+## Utilisation avancée
 
-You can add additional configurations (e.g. allowing specific origins) by following the [advanced usage guide][advanced-usage].
+Vous pouvez ajouter des configurations supplémentaires (par exemple, autoriser des origines spécifiques) en suivant le [guide d'utilisation avancée][advanced-usage].
 
-To use giscus with React, Vue, or Svelte, check out the [giscus component library][giscus-component].
+Pour utiliser giscus avec React, Vue ou Svelte, consultez la [bibliothèque de composants giscus][giscus-component].
 
-## Migrating
+## Migration
 
-If you've previously used other systems that utilize GitHub Issues (e.g. [utterances][utterances], [gitalk][gitalk]), you can [convert the existing issues into discussions][convert]. After the conversion, just make sure that the mapping between the discussion titles and the pages are correct, then giscus will automatically use the discussions.
+Si vous avez déjà utilisé d'autres systèmes qui utilisent les *issues* de GitHub (par exemple [utterances][utterances], [gitalk][gitalk]), vous pouvez [convertir les *issues* existantes en discussions][convert]. Après la conversion, assurez-vous simplement que le mappage entre les titres des discussions et les pages est correct, ensuite giscus utilisera automatiquement les discussions.
 
-## Sites using giscus
+## Sites utilisant giscus
 
 - [laymonage.com][laymonage-website]
 - [os.phil-opp.com][os-phil-opp]
 - [Stats and R][statsandr]
 - [Tech Debt Burndown Podcast][techdebtburndown]
-- [**and many more!**][giscus-topic]
+- [**et bien plus encore!**][giscus-topic]
 
-## Contributing
+## Contribuer
 
-See [CONTRIBUTING.md][contributing]
+Voir le fichier [CONTRIBUTING.md][contributing]
 
 [giscus-component]: https://github.com/giscus/giscus-component
 [repo]: https://github.com/giscus/giscus
@@ -76,7 +76,7 @@ See [CONTRIBUTING.md][contributing]
 
 ---
 
-This README is available in:
+Ce README est disponible en :
 
 - [&lrm;العربية](README.ar.md)
 - [Беларуская](README.be.md)
@@ -114,6 +114,6 @@ This README is available in:
 - [繁體中文](README.zh-TW.md)
 - [香港繁體](README.zh-HK.md)
 
-[![Powered by Vercel](public/powered-by-vercel.svg)][vercel]
+[![Propulsé par Vercel](public/powered-by-vercel.svg)][vercel]
 
 [vercel]: https://vercel.com/?utm_source=giscus&utm_campaign=oss
